@@ -15,6 +15,7 @@ Patch0:		Getopt-Popt-0.02-x86_64-build.patch
 URL:		http://search.cpan.org/dist/%{dir_name}/
 BuildRequires:	perl-devel
 BuildRequires:  popt-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 Requires:	perl
 
 %description
