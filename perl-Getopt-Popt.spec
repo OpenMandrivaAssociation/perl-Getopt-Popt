@@ -2,7 +2,7 @@
 %define dir_name Getopt-Popt
 %define	name	perl-%{dir_name}
 %define	version	0.02
-%define	release	%mkrel 5
+%define	release	%mkrel 7
 
 Summary:	Perl interface to the popt(3)library
 Name:		%{name}
