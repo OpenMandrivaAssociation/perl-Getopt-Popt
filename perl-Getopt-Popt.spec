@@ -12,6 +12,7 @@ License:	GPL
 Group:		Development/Perl
 Source:		http://cpan.uwinnipeg.ca/cpan/authors/id/J/JA/JAMESB/%{dir_name}-%{version}.tar.bz2
 Patch0:		Getopt-Popt-0.02-x86_64-build.patch
+Patch1:		Getopt-Popt-0.02-fix-testsuite.diff
 URL:		http://search.cpan.org/dist/%{dir_name}/
 BuildRequires:	perl-devel
 BuildRequires:  popt-devel
@@ -29,6 +30,7 @@ This release should be considered a beta and may have a bug or two.
 %prep
 %setup -q -n %{dir_name}-%{version}
 %patch0 -p0
+%patch1 -p0
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
