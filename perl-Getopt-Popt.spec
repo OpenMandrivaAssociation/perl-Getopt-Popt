@@ -50,3 +50,57 @@ rm -rf $RPM_BUILD_ROOT
 %doc README Changes example.pl
 %{_mandir}/*/*
 %{perl_vendorarch}/*
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.20.0-3
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-2mdv2011.0
++ Revision: 555873
+- rebuild for perl 5.12
+
+* Fri Feb 12 2010 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-1mdv2010.1
++ Revision: 504806
+- rebuild using %%perl_convert_version
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - patch 1: workaround testsuite testing stupid constants
+    - rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.02-7mdv2009.0
++ Revision: 257103
+- rebuild
+
+* Tue Jan 15 2008 Thierry Vignaud <tv@mandriva.org> 0.02-5mdv2008.1
++ Revision: 152087
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Sat Sep 15 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.02-4mdv2008.0
++ Revision: 86464
+- rebuild
+
+
+* Wed Jul 26 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 07/26/06 20:05:14 (42235)
+- push test into check section
+
+* Wed Jul 26 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 07/26/06 20:02:36 (42234)
+- rebuild
+
+* Wed Jul 26 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 07/26/06 19:59:27 (42229)
+Import perl-Getopt-Popt
+
+* Fri Jul 08 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.02-2mdk
+- patch 0: fix testsuite on 64bit platforms
+
+* Sun Jan 23 2005 Sylvie Terjan <erinmargault@zarb.org> 0.02-1mdk
+-initial specfile
+
