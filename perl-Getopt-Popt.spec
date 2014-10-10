@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 
 Summary:	Perl interface to the popt(3)library
 License:	GPL
