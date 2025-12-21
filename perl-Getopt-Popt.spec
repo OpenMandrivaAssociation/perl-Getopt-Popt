@@ -13,6 +13,7 @@ Source0:    http://cpan.uwinnipeg.ca/cpan/authors/id/J/JA/JAMESB/%{upstream_name
 Patch0:		Getopt-Popt-0.02-x86_64-build.patch
 Patch1:		Getopt-Popt-0.02-fix-testsuite.diff
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:  popt-devel
 
