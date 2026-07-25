@@ -2,13 +2,13 @@
 %define	upstream_version 0.02
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	5
+Version:    %{upstream_version}
+Release:	6
 
 Summary:	Perl interface to the popt(3)library
 License:	GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
+Url:		https://metacpan.org/dist/Getopt-Popt
 Source0:    http://cpan.uwinnipeg.ca/cpan/authors/id/J/JA/JAMESB/%{upstream_name}-%{upstream_version}.tar.bz2
 Patch0:		Getopt-Popt-0.02-x86_64-build.patch
 Patch1:		Getopt-Popt-0.02-fix-testsuite.diff
